@@ -10,7 +10,7 @@ body {
   background-image: url(twins.jpg);
   background-repeat: no-repeat;
   background-position: 0% 0%;
-  background-size: 100%;
+  background-size: 100%;background-color: #000000;
 }
 
 main {
