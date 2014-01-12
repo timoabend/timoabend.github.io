@@ -1,0 +1,50 @@
+.navbar:after {
+    clear: both;
+}
+.navbar:after {
+    clear: both;
+}
+.navbar:before, .navbar:after {
+    display: table;
+    content: " ";
+}
+.navbar:before, .navbar:after {
+    display: table;
+    content: " ";
+}
+
+.navbar-inverse {
+    background-color: rgb(34, 34, 34);
+    border-color: rgb(8, 8, 8);
+}
+.navbar-fixed-top {
+    top: 0px;
+    border-width: 0px 0px 1px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+}
+.navbar {
+    border-radius: 4px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(51, 51, 51);
+}
