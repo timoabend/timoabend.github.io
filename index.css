@@ -15,11 +15,11 @@ body {
 main {
 	position: relative;
 	z-index: -1;
+	display: block;
 	background-color: #EBE8E4;
 	border: 1px solid #dedede;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	text-shadow: 1px 1px #000;
 	color: #888;
 	margin: 30px 22px 8px 22px;
 	overflow: hidden;
@@ -31,8 +31,9 @@ main > p {
 	margin: 10px;
 }
 
-h1 {
+main > h1 {
 	margin: 10px 0px 0px 10px;
+	text-shadow: 1px 1px #000;
 }
 
 nav {
